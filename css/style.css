@@ -1,0 +1,277 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    font-family: sans-serif;
+    font-size: 62.5%;
+}
+.container {
+    margin: 0 auto;
+    width: 85vw;
+}
+
+ul , li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+header {
+    background-color: rgb(238, 248, 248);
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh;
+}
+.heading a {
+    color:  rgba(104, 102, 98, 0.829);
+    transition: 0.3s;
+    
+}
+.logo h2 {
+    font-size: 2.2rem;
+}
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu ul li {
+    margin: 0 1vw;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+header a:hover {
+    color: rgb(33, 171, 212);
+}
+
+
+li .sign-in {
+    margin: 0 1.2vw;
+    font-size: 1.25rem;
+    padding: 1.2vh 1.5vw;
+    background-color: rgb(33, 171, 212);
+    color: rgb(250, 255, 255);
+    border-radius: 30px;
+    transition: 0.2s;
+}
+
+li .sign-in:hover {
+    background-color: rgb(24, 158, 192);
+    color: rgb(247, 247, 247);
+    box-shadow: 0 0 5px rgb(77, 203, 235);;
+}
+
+
+/*   */
+
+.main-area {
+    background: url(/img/bg-img.jpg)no-repeat center center/cover;
+    height: 87vh;
+    width: 100%;
+    position: relative;
+
+}
+.main-area-intro {
+    display: flex;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    bottom: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+
+}
+
+
+
+.title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 2vh 0;
+}
+
+.title-para {
+    width: 95%;
+    padding: 1vh 0;
+    font-size: 0.95rem;
+    letter-spacing: 0.8px;
+    line-height: 125%;
+    font-weight: 100;
+}
+
+
+.about-area {
+    margin: 10vh auto;
+}
+
+.about-area h2 {
+    font-size: 2.6rem;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(33, 171, 212);
+    padding: 1vh 0;
+}
+.about-area p {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 100;
+    width: 70%;
+    padding: 1vh 0;
+    margin: 0 auto;
+}
+
+
+
+.team-area {
+    background-color: rgb(33, 171, 212);
+    padding-top: 1vh;
+    padding-bottom: 12vh;
+
+}
+
+.team-area h2{
+    font-size: 2.6rem;
+    text-align: center;
+    font-weight: 600;
+    padding:5vh 0;
+    color: white;
+    
+}
+
+.members {
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    margin: 0 auto;
+    padding: 5vh 0;
+}
+.member {
+    width: 30%;
+    overflow: hidden;
+}
+.member .c-img {
+    width: 13vw;
+    height: 22vh;
+    padding: 1vw 0;
+}
+.member img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.member .member-info h4 {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0.45vh 0;
+}
+.member .member-info p {
+    font-size: 0.9rem;
+    text-decoration: inherit;
+    color: rgba(255, 255, 255, 0.822);
+    text-align: center;
+
+}
+.member {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.work-btn {
+    text-align: center;
+    padding-top: 8vh;
+    padding-bottom: 0vh;
+    background: transparent;
+
+}
+.work-btn a{
+    border: 1px solid white;
+    padding: 2vh 2.6vw;
+    font-size: 0.9rem;
+    font-weight: inherit;
+    border-radius: 3rem;
+    transition: .35s ease-in;
+    animation: fontsize 0.35s ease-in;
+    animation-fill-mode: forwards;
+    backface-visibility: hidden;
+}
+.work-btn a:hover{
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: rgba(23, 155, 179, 0.973);
+}
+
+
+footer {
+    background-color: rgba(48, 50, 53, 0.904);
+}
+footer a{
+    color: rgba(220, 227, 230, 0.959);
+
+}
+footer .intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 0;
+}
+footer .intro ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .intro ul li {
+    margin: 0 0.8vw;
+    font-size: 0.72rem;
+}
+
+footer i {
+    padding: 1.7vh 1.1vw;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin:0 0.5vw;
+    font-size: 1.2rem;
+}
+footer i:hover {
+    color: rgb(8, 84, 114);
+    background-color: #fff;
+}
+.footer-last ul {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+   padding: 2vh 0;
+
+}
+
+.footer-last ul li {
+    margin: 0 0.9vw;
+    font-size: 0.8rem;
+    color: rgba(44, 50, 51, 0.829);
+}
+.footer-last ul li a {
+    color: rgba(143, 154, 156, 0.945);
+}
+.footer-last ul li a:hover {
+    color: white;
+}
+
+
