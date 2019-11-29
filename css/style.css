@@ -77,7 +77,7 @@ li .sign-in:hover {
 /*   */
 
 .main-area {
-    background: url(/img/bg-img.jpg)no-repeat center center/cover;
+    background: url(../img/bg-img.jpg)no-repeat center center/cover;
     height: 87vh;
     width: 100%;
     position: relative;
